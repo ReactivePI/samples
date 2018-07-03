@@ -4,7 +4,7 @@ this sample demonstrates the combination of using Akka remote actors with Reacti
 sensor. Please follow the rest of this README to get the sample up and running.
 
 ## Building the sample
-To build the sample be sure that you have Scala 2.11.7 and SBT 0.13.6 or higher on your system.
+To build the sample be sure that you have Scala 2.12.6 and SBT 1.1.6 or higher on your system.
 Next run the following commands to build the sample:
 
 ```
@@ -35,7 +35,7 @@ akka {
 Start the application with the following command:
 
 ```
-java -cp .:temperature-monitor_2.11-0.1.jar nl.fizzylogic.reactivepi.samples.temperaturemonitor.Program -m sensor
+java -cp .:temperature-monitor_2.12-0.2.jar nl.fizzylogic.reactivepi.samples.temperaturemonitor.Program -m sensor
 ```
 
 Next copy the jar file to a separate location on your computer and use the following `application.conf`
@@ -64,5 +64,5 @@ akka {
 Be sure to enter the IP-address of the raspberry PI in your config before starting the application using the command below:
 
 ```
-java -cp .:temperature-monitor_2.11-0.1.jar nl.fizzylogic.reactivepi.samples.temperaturemonitor.Program -m monitor
+java -cp .:temperature-monitor_2.12-0.2.jar nl.fizzylogic.reactivepi.samples.temperaturemonitor.Program -m monitor
 ```
