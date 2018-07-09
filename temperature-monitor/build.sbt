@@ -21,8 +21,8 @@ libraryDependencies ++= {
 // Reactive PI dependencies
 libraryDependencies ++= {
   Seq(
-    "reactivepi" %% "core" % "0.2",
-    "reactivepi" %% "actors" % "0.2"
+    "nl.fizzylogic.reactivepi" %% "core" % "0.3.1",
+    "nl.fizzylogic.reactivepi" %% "actors" % "0.3.1"
   )
 }
 
